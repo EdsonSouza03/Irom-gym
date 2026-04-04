@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Central.css">    
+    <title>Painel Central</title>
+    <script>
+        document.getElementById('contador-alunos').innerText = 150; 
+        document.getElementById('contador-aulas').innerText = 8; 
+    </script>
+</head>
+<body>
+<h2>Painel Central</h2>
+
+    <div class="link">
+    <a href="registrar.html">Cadastrar Alunos</a>
+    <a href="aulas.html">Gerenciar Aulas</a>
+    <a href="planos.html">Planos</a>
+    <a href="AddAulas.html">Adicionar Aulas</a>
+    
+    </div>
+
+<div class="Grid-painel">
+    <section class="painel-informacoes">
+  <div class="card-dados">
+    <h2>Alunos Registrados</h2>
+    <p id="contador-alunos">0</p>
+  </div>
+  <div class="card-dados">
+    <h2>Aulas Hoje</h2>
+    <p id="contador-aulas">0</p>
+  </div>
+</section>   
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="AddAulas.css">
+    <title>Adicionar Aulas</title>
+</head>
+<body>
+    <h2>Adicionar Aulas</h2>
+    <a href="Central.html" class="voltar">← Voltar</a>
+    <form action="processar_aula.php" method="post">
+        <label for="nome">Nome da Aula:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="instrutor">Instrutor:</label>
+        <input type="text" id="instrutor" name="instrutor" required><br><br>
+
+        <label for="horario">Horário:</label>
+        <input type="text" id="horario" name="horario" required><br><br>
+
+        <input type="submit" value="Cadastrar Aula">
+    </form>
+    
+</body>
+</html>
