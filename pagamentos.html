@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pagamento.css">
+    <title>Pagamento plano</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="container">
+        <article class="part card-details">
+            <h1>
+                Detalhes do cartão
+            </h1>
+            <form action="" if="cc-form" autocomplete="off">
+                <div class="numero-cartao">
+                    <label for="first">Numero do cartão</label>
+                    <input type="text" id="first" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
+                    <input type="text" id="second" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
+                    <input type="text" id="third" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
+                    <input type="text" id="fourth" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
+                </div>
+                <div class="nome-cartao">
+                    <label for="name">Nome no cartão</label>
+                    <input type="text" id="name" class="" type="text" maxlength="20" placeholder="Nome Completo">
+                </div>
+                <div class="vencimento-cartao">
+                    <div class="input-item expiry">
+                        <label for="expiry">Data de expiração</label>
+                        <input type="text" class="month" id="expiry" placeholder="02">
+                        <input type="text" class="year" id="" placeholder="2017">
+                    </div>
+                    <div class="codigo-seguranca">
+                        <label for="cvc">CVC </label>
+                        <input type="text" class="csv" id="cvc" placeholder="123">
+                    </div>
+                </div>
+                <div class="submit-btn">
+                    <span class="arrow"></span>
+                    <input type="submit" class="submit" value="Confirmar pagamento">
+                </div>
+            </form>
+        </article>
+        <div class="part bg"></div>
+    </div>
+</div>
+</body>
+</html>
